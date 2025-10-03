@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Similarity Results</title></head>
+<body>
+  <h2>Document Summary</h2>
+  <p>{{ summary }}</p>
+  <h2>Top 5 Similarity Matches</h2>
+  <ul>
+    {% for result in results %}
+      <li>Match: {{ result.text }}<br>Score: {{ result.score }}</li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('index') }}">Check Another Document</a>
+</body>
+</html>
