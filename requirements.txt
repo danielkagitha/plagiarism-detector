@@ -2,6 +2,8 @@ flask
 flask_sqlalchemy
 python-docx
 sentence-transformers
+torch
+transformers
 requests
 beautifulsoup4
 gunicorn
