@@ -1,7 +1,1 @@
-plagiarism_webapp/
-│-- app.py
-│-- uploads/
-│-- templates/
-    │-- index.html
-    │-- results.html
-│-- database.db
+
